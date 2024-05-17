@@ -1,0 +1,107 @@
+/*#switch {
+    visibility: hidden; /* Oculta el elemento con el ID "switch" */
+/*}
+
+label {
+    cursor: pointer;
+    text-indent: -2000px;
+    width: 400px;
+    height: 200px;
+    background: grey;
+    border-radius: 200px;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+}
+label:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 180px;
+    height: 180px;
+    background: white;
+    border-radius: 200px;
+    transition: 0.4s; /* Agrega una transición suave al elemento después */
+/*}
+input:checked + label {
+    background: #7ED957; /* Cambia el fondo del elemento "label" cuando el input está marcado */
+/*}
+label:after {
+    left: calc(100% - 15px);
+    transform: translateX(-100%); /* Mueve el elemento "label:after" hacia la izquierda */
+/*} */
+
+/*
+img{
+    width: ;
+    height: ;
+    left: 400px;
+    position: relative;
+    animation: bottom infinite ease-out 10s;
+}
+@keyframes bottom{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-30px);}
+    100%{transform: translateY(0);}
+}
+*/
+
+
+/*Crad*/
+/*.flip-card-inner{
+    position: relative;
+    width: 100px;
+    height:100px ;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}*/
+/*
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width:100px ;
+    height: 100px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+*/
+/* style.css */
+/*.flip-card-inner {
+    position: relative;
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+   /* height: 100px; /* Ajusta la altura según tus necesidades */
+   /* text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}*/
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+/*
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: white;
+    /* Otros estilos para el título */
+}
